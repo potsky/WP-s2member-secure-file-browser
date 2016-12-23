@@ -749,6 +749,11 @@ class PSK_S2MSFB {
 				return;
 			}
 
+			// User is an admin, do not record anything
+			if ( current_user_can( PSK_S2MSFB_ADMIN_SETTINGS_ACCESS ) ) {
+				return;
+			}
+
 			delete_transient( PSK_S2MSFB_WIDGET_DOWNLOAD_LATEST_ID );
 			delete_transient( PSK_S2MSFB_WIDGET_DOWNLOAD_TOP0_ID );
 			delete_transient( PSK_S2MSFB_WIDGET_DOWNLOAD_TOP1_ID );
