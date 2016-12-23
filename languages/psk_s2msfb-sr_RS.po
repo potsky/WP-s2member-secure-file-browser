@@ -1,0 +1,1909 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: s2member Secure File Browser\n"
+"POT-Creation-Date: 2015-03-19 10:23+0100\n"
+"PO-Revision-Date: 2015-03-19 10:23+0100\n"
+"Last-Translator: Potsky <potsky@me.com>\n"
+"Language-Team: potsky <potsky@me.com>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_x;_e;__;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class/psk_s2msfb.admin.class.php:151
+msgid "Statistics"
+msgstr "Statistika"
+
+#: class/psk_s2msfb.admin.class.php:153
+msgid "All downloads"
+msgstr "Sva preuzimanja"
+
+#: class/psk_s2msfb.admin.class.php:154 class/psk_s2msfb.class.php:1402
+msgid "Top files"
+msgstr "Najčešće preuzimane datoteke"
+
+#: class/psk_s2msfb.admin.class.php:155 class/psk_s2msfb.class.php:1426
+msgid "Top downloaders"
+msgstr "Najčešće preuzimaju"
+
+#: class/psk_s2msfb.admin.class.php:157
+msgid "Current s2member Accounting"
+msgstr "Current s2member Accounting"
+
+#: class/psk_s2msfb.admin.class.php:163
+msgid "Browser"
+msgstr "Pretraživač"
+
+#: class/psk_s2msfb.admin.class.php:165
+msgid "Manage files"
+msgstr "Upravljaj datotekama"
+
+#: class/psk_s2msfb.admin.class.php:167
+msgid "Tools"
+msgstr "Alati"
+
+#: class/psk_s2msfb.admin.class.php:168
+msgid "Cache management"
+msgstr "Upravljanje kešom"
+
+#: class/psk_s2msfb.admin.class.php:169
+msgid "Shortcode generator"
+msgstr "Shortcode generator"
+
+#: class/psk_s2msfb.admin.class.php:171
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: class/psk_s2msfb.admin.class.php:172
+msgid "Shortcode options"
+msgstr "Shortcode opcije "
+
+#: class/psk_s2msfb.admin.class.php:180
+msgid "Settings"
+msgstr "Podešavanja"
+
+#: class/psk_s2msfb.admin.class.php:182
+msgid "General"
+msgstr "Opšta"
+
+#: class/psk_s2msfb.admin.class.php:183
+msgid "Notification"
+msgstr "Obaveštenje"
+
+#: class/psk_s2msfb.admin.manager.class.php:79
+msgid "Easing function to use on collapse"
+msgstr "Pojednostavljenje funkcija za opadajuće fascikle"
+
+#: class/psk_s2msfb.admin.manager.class.php:83
+#: class/psk_s2msfb.admin.manager.class.php:217
+msgid "Can be set to <code>linear</code>"
+msgstr "Može se podesiti na <code>linearni</code>"
+
+#: class/psk_s2msfb.admin.manager.class.php:87
+msgid "Speed of the collapse folder action in ms"
+msgstr "Brzina izlistavanja opadajućih fascikli u ms"
+
+#: class/psk_s2msfb.admin.manager.class.php:91
+#: class/psk_s2msfb.admin.manager.class.php:225
+msgid "Use <code>-1</code> for no animation"
+msgstr "Koristite <code>-1</code> ako ne želite animaciju"
+
+#: class/psk_s2msfb.admin.manager.class.php:95
+msgid "Truncate directory names to specific chars length"
+msgstr "Ograničite nazive direktorijuma na određene dužine karaktera"
+
+#: class/psk_s2msfb.admin.manager.class.php:98
+#: class/psk_s2msfb.admin.manager.class.php:106
+msgid "Do not truncate"
+msgstr "Koristite <code>-1</code> ako ne želite animaciju"
+
+#: class/psk_s2msfb.admin.manager.class.php:103
+msgid "Truncate file names to specific chars length"
+msgstr "Ograničite nazive datoteka na određene dužine karaktera"
+
+#: class/psk_s2msfb.admin.manager.class.php:111
+msgid "Initial directory from the s2member-files directory"
+msgstr "Početni direktorijum iz s2member-files direktorijuma "
+
+#: class/psk_s2msfb.admin.manager.class.php:119
+msgid "Show directories above files"
+msgstr "Prikaži direktorijume iznad datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:122
+msgid "Show directories first"
+msgstr "Prvo prikaži direktorijume"
+
+#: class/psk_s2msfb.admin.manager.class.php:123
+msgid "Set to <code>0</code> to display directories with files"
+msgstr ""
+"Podesite na <code>0</code> da biste prikazali direktorijume sa datotekama"
+
+#: class/psk_s2msfb.admin.manager.class.php:127
+msgid "Display all items without checking if user is granted to download them"
+msgstr ""
+"Prikažite sve stavke bez provere da li je korisniku dozvoljeno da ih preuzima"
+
+#: class/psk_s2msfb.admin.manager.class.php:128
+msgid ""
+"If the user downloads an unauthorized file, it will be redirected to the "
+"s2member Membership Page"
+msgstr ""
+"Ako korisnik preuzima neautorizovanu datoteku, biće preusmeren na s2member "
+"stranicu o članstvu"
+
+#: class/psk_s2msfb.admin.manager.class.php:130
+msgid "Only allowed directories are displayed"
+msgstr "Prikazani su samo dozvoljeni direktorijumi"
+
+#: class/psk_s2msfb.admin.manager.class.php:131
+msgid "Set to <code>1</code> to display all directories"
+msgstr "Podesite na <code>1</code> za prikazivanje svih direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:135
+msgid "Display files birth date"
+msgstr "Prikaži datum nastanka datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:140
+msgid ""
+"Set to <code>0</code> to hide the date when files and directories have been "
+"added"
+msgstr ""
+"Podesite <code>0</code> da biste sakrili datum kad su datoteke i "
+"direktorijumi dodati"
+
+#: class/psk_s2msfb.admin.manager.class.php:141
+msgid "Can be set to <code>1</code> to display files added date only"
+msgstr ""
+"Može se podesiti na <code>1</code> da bi se prikazao samo datum dodavanja "
+"datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:142
+msgid "Can be set to <code>2</code> to display directories added date only"
+msgstr ""
+"Može se podesiti na <code>2</code> da bi se prikazao samo datum dodavanja "
+"datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:143
+msgid ""
+"Can be set to <code>3</code> to display files and directories added date"
+msgstr ""
+"Može se podesiti na <code>3</code> da bi se prikazali datumi dodavanja "
+"datoteka i direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:147
+msgid "Display files comment"
+msgstr "Prikaži komentare datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:152
+msgid "Set to <code>0</code> to hide files and directories comments"
+msgstr ""
+"Podesite na <code>0</code> da biste sakrili komentare datoteka i "
+"direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:153
+msgid "Can be set to <code>1</code> to display files comments only"
+msgstr ""
+"Može se podesiti na <code>1</code> da bi se prikazali samo komentaridatoteke "
+"i "
+
+#: class/psk_s2msfb.admin.manager.class.php:154
+msgid "Can be set to <code>2</code> to display directories comments only"
+msgstr ""
+"Može se podesiti na <code>2</code> da bi se prikazali samo komentari "
+"direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:155
+msgid "Can be set to <code>3</code> to display files and directories comments"
+msgstr ""
+"Može se podesiti na <code>3</code> da bi se prikazali komentari datoteka i "
+"direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:159
+msgid "Show if a file has already been downloaded"
+msgstr "Prikaži ako je datoteka već preuzeta"
+
+#: class/psk_s2msfb.admin.manager.class.php:162
+msgid "Do not show already downloaded files"
+msgstr "Ne prikazuj već preuzete datoteke"
+
+#: class/psk_s2msfb.admin.manager.class.php:163
+msgid ""
+"Can be set to <code>1</code> to display a confirm box when user clicks to "
+"download an already downloaded file"
+msgstr ""
+"Može se podesiti na <code>1</code> da bi se prikazao dijaloški okvir kad "
+"korisnik klikne da preuzme već preuzetu datoteku."
+
+#: class/psk_s2msfb.admin.manager.class.php:164
+msgid ""
+"Can be set to <code>2</code> to lowlight already downloaded files in the "
+"browser with a message"
+msgstr ""
+"Može se podesiti na <code>2</code> da bi se zatamnile već preuzete datoteke "
+"u pretraživaču sa porukom"
+
+#: class/psk_s2msfb.admin.manager.class.php:168
+msgid "Display files name"
+msgstr "Prikaži nazive datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:172
+msgid "Set to <code>0</code> to display regular files and directories name"
+msgstr ""
+"Podesite na <code>0</code> da biste prikazali regularne nazive datoteka i "
+"direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:173
+msgid "Can be set to <code>1</code> to display files displayname only"
+msgstr ""
+"Može se podesiti na <code>1</code> da biste prikazali samo nazive za "
+"prikazivanje datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:174
+msgid "Can be set to <code>2</code> to display directories displayname only"
+msgstr ""
+"Može se podesiti na <code>2</code> da biste prikazali samo nazive za "
+"prikazivanje direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:175
+msgid ""
+"Can be set to <code>3</code> to display files and directories displayname"
+msgstr ""
+"Može se podesiti na <code>3</code> da biste prikazali nazive za prikazivanje "
+"direktorijuma i datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:176
+#: class/psk_s2msfb.admin.manager.class.php:372
+msgid "You can use these HTML tags : em strong u style"
+msgstr "Možete koristiti HTML oznake: em strong u style"
+
+#: class/psk_s2msfb.admin.manager.class.php:180
+msgid "Display files size"
+msgstr "Prikaži veličine datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:184
+msgid "Set to <code>0</code> to hide files size"
+msgstr "Podesite na <code>0</code> da biste sakrili veličine datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:188
+msgid "Display files modification date"
+msgstr "Prikaži datume izmene datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:193
+msgid ""
+"Set to <code>0</code> to hide the date when files and directories have been "
+"modified"
+msgstr ""
+"Podesite na <code>0</code> da biste sakrili datume izmena datoteka i "
+"direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:194
+msgid "Can be set to <code>1</code> to display files modification date only"
+msgstr ""
+"Možete podesiti na <code>1</code> da biste prikazali samo datume "
+"modifikovanja datoteka "
+
+#: class/psk_s2msfb.admin.manager.class.php:195
+msgid ""
+"Can be set to <code>2</code> to display directories modification date only"
+msgstr ""
+"Možete podesiti na <code>2</code> da biste prikazali samo datume "
+"modifikovanja direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:196
+msgid ""
+"Can be set to <code>3</code> to display files and directories modification "
+"date"
+msgstr ""
+"Možete podesiti na <code>3</code> da biste prikazali datume modifikovanja "
+"datoteka i direktorijuma "
+
+#: class/psk_s2msfb.admin.manager.class.php:200
+msgid "Let directories be downloaded"
+msgstr "Omogući preuzimanje direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:203
+msgid "Directories cannot be downloaded as zip files"
+msgstr "Direktorijumi ne mogu biti preuzeti kao zip datoteke"
+
+#: class/psk_s2msfb.admin.manager.class.php:204
+msgid ""
+"If set to <code>1</code> and if a zip file has exactly the same name as "
+"directory in the same parent folder, then a download button will be "
+"displayed and the zip file will be hidden."
+msgstr ""
+"Ako je podešena <code>1</code> vrednost i ako zip datoteka ima identično ime "
+"kao direktorijum u istoj nadređenoj fascikli, taster za preuzimanje biće "
+"prikazan, a zip datoteka skrivena."
+
+#: class/psk_s2msfb.admin.manager.class.php:206
+msgid "Example:"
+msgstr "Primer:"
+
+#: class/psk_s2msfb.admin.manager.class.php:208
+msgid "will result in:"
+msgstr "će dati rezultat:"
+
+#: class/psk_s2msfb.admin.manager.class.php:213
+msgid "Easing function to use on expand"
+msgstr "Pojednostavljenje funkcije za upotrebu na opadajućim"
+
+#: class/psk_s2msfb.admin.manager.class.php:221
+msgid "Speed of the expand folder action in ms"
+msgstr "Brzina izlistavanja opadajućih foldera u ms"
+
+#: class/psk_s2msfb.admin.manager.class.php:229
+msgid "A full regexp directories have to match to be displayed"
+msgstr "Pun regexp direktorijuma mora da se poklapa da bi bio prikazan "
+
+#: class/psk_s2msfb.admin.manager.class.php:230
+#: class/psk_s2msfb.admin.manager.class.php:238
+msgid "Syntax available here"
+msgstr "Sintaksa dostupna ovde"
+
+#: class/psk_s2msfb.admin.manager.class.php:230
+#: class/psk_s2msfb.admin.manager.class.php:238
+msgid "<code>preg_match</code> PHP function is used"
+msgstr "<code>preg_match</code> koristi se PHP funkcija"
+
+#: class/psk_s2msfb.admin.manager.class.php:233
+msgid "eg: <code>/(access|user)/i</code>"
+msgstr "primer:  <code>/(access|user)/i</code>"
+
+#: class/psk_s2msfb.admin.manager.class.php:237
+msgid "A full regexp files have to match to be displayed"
+msgstr "Pun regexp datoteka mora da se poklapa da bi bio prikazan "
+
+#: class/psk_s2msfb.admin.manager.class.php:241
+msgid "eg: <code>/\\.(png|jpe?g|gif|zip)$/i</code>"
+msgstr "pr: <code>/\\.(png|jpe?g|gif|zip)$/i</code>"
+
+#: class/psk_s2msfb.admin.manager.class.php:245
+msgid "Event to trigger expand/collapse"
+msgstr "Događaj koji pokreće otvaranje/zatvaranje"
+
+#: class/psk_s2msfb.admin.manager.class.php:248
+msgid "User has to click to toggle directories, download files, ..."
+msgstr "Korisnik treba da otvori direktorijume, preuzme datoteke..."
+
+#: class/psk_s2msfb.admin.manager.class.php:249
+msgid "Can be any javascript event like <code>mouseover</code>, ..."
+msgstr ""
+"Može biti bilo koji javascript događaj, kao što je <code>pomeranje kursora</"
+"code>"
+
+#: class/psk_s2msfb.admin.manager.class.php:253
+msgid "Show hidden files or not"
+msgstr "Prikazati skrivene datoteke ili ne"
+
+#: class/psk_s2msfb.admin.manager.class.php:256
+msgid "Do not show hidden files"
+msgstr "Ne prikazuj skrivene datoteke"
+
+#: class/psk_s2msfb.admin.manager.class.php:257
+msgid "Set to <code>1</code> to display"
+msgstr "Podesi na <code>1</code> za prikazivanje"
+
+#: class/psk_s2msfb.admin.manager.class.php:261
+msgid "Whether or not to limit the browser to one subfolder at a time"
+msgstr "Treba li ograničiti pretraživač na jedan podfolder "
+
+#: class/psk_s2msfb.admin.manager.class.php:265
+msgid "Set to <code>0</code> to display only one open directory at a time"
+msgstr ""
+"Podesite na <code>0</code> da biste prikazali samo po jedan otvoren "
+"direktorijum "
+
+#: class/psk_s2msfb.admin.manager.class.php:269
+msgid "Replace files name with custom values"
+msgstr "Zameni nazive datoteka prilagođenim vrednostima"
+
+#: class/psk_s2msfb.admin.manager.class.php:270
+msgid ""
+"Syntax : <code>realfilename_1:Custom File Name #1|...|realfilename_n:Custom "
+"File Name #n</code>"
+msgstr ""
+"Sintaksa: <code>realfilename_1:Custom File Name #1|...|realfilename_n:Custom "
+"File Name #n</code>"
+
+#: class/psk_s2msfb.admin.manager.class.php:273
+msgid ""
+"<code>access-s2member-level#</code> will be automatically renamed with your "
+"s2member level custom labels."
+msgstr ""
+"naziv <code>access-s2member-level#</code> biće automatski promenjen zajedno "
+"sa vašim s2member prilagođenim oznakama nivoa"
+
+#: class/psk_s2msfb.admin.manager.class.php:277
+msgid "Whether or not to open all subdirectories when opening a directory"
+msgstr ""
+"Treba li otvarati sve poddirektorijume prilikom otvaranja direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:280
+msgid "User has to open directories himself"
+msgstr "Korisnik treba sam da otvori direktorijume"
+
+#: class/psk_s2msfb.admin.manager.class.php:281
+msgid ""
+"Set to <code>1</code> to open recursively subdirectories when opening a "
+"directory (then all directories will be open at initialization)"
+msgstr ""
+"Podesite na <code>1</code> da biste rekurzivno otvarali poddirektorijume "
+"prilikom otvaranja direktorijuma (u tom slučaju svi direktorijumi otvoriće "
+"se na početku) "
+
+#: class/psk_s2msfb.admin.manager.class.php:285
+msgid "Display file preview button for these extensions"
+msgstr "Prikaži taster za pregled datoteka koje imaju sledeće ekstenzije"
+
+#: class/psk_s2msfb.admin.manager.class.php:286
+msgid "Define file types by extensions seperated by coma"
+msgstr "Odredite vrste datoteka prema ekstenzijama i odvojite ih zarezima"
+
+#: class/psk_s2msfb.admin.manager.class.php:288
+msgid ""
+"Supported values are : <code>mp3</code>, <code>jpg</code>, <code>jpeg</"
+"code>, <code>gif</code>, <code>png</code>"
+msgstr "Podržane vrednosti su:"
+
+#: class/psk_s2msfb.admin.manager.class.php:289
+msgid "eg: <code>mp3,jpg,jpeg,gif,png</code>"
+msgstr ""
+"<code>mp3</code>, <code>jpg</code>, <code>jpeg</code>, <code>gif</code>, "
+"<code>png</code>pr: <code>mp3,jpg,jpeg,gif,png</code>"
+
+#: class/psk_s2msfb.admin.manager.class.php:293
+msgid ""
+"Display the s2member confirmation box when a user tries to download a file"
+msgstr ""
+"Prikaži s2member dijaloški okvir kad korisnik pokuša da preuzme datoteku"
+
+#: class/psk_s2msfb.admin.manager.class.php:296
+msgid "No confirmation box displayed"
+msgstr "Nije prikazan dijaloški okvir"
+
+#: class/psk_s2msfb.admin.manager.class.php:297
+msgid "Set to <code>1</code> to display the confirmation box"
+msgstr "Podesite na <code>1</code> da biste prikazali dijaloški okvir"
+
+#: class/psk_s2msfb.admin.manager.class.php:301
+msgid "Let user search files"
+msgstr "Omogućite korisnicima pretragu datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:304
+msgid "Search is unavailable"
+msgstr "Pretraga nije omogućena"
+
+#: class/psk_s2msfb.admin.manager.class.php:305
+msgid ""
+"Can be set to <code>1</code> to display a global search button on top of the "
+"shortcode"
+msgstr ""
+"Možete podesiti na <code>1</code> da biste prikazali taster opšte pretrage "
+"na vrhu shortcode-a"
+
+#: class/psk_s2msfb.admin.manager.class.php:306
+msgid ""
+"Can be set to <code>2</code> to display a global search button on top and a "
+"search button for each directory"
+msgstr ""
+"Možete podesiti na <code>2</code> da biste prikazali taster opšte pretrage "
+"na vrhu i taster pretrage za svaki direktorijum"
+
+#: class/psk_s2msfb.admin.manager.class.php:310
+msgid "Group shortcodes with a single single search box"
+msgstr "Grupišite shortcode-ove jednim okvirom za pretragu"
+
+#: class/psk_s2msfb.admin.manager.class.php:313
+msgid "There is no group. Every shortcode has it own search box"
+msgstr "Nema grupe. Svaki shortcode ima svoj okvir za pretragu"
+
+#: class/psk_s2msfb.admin.manager.class.php:314
+msgid ""
+"You can define groups by setting this value to <code>1</code> for all "
+"shortcodes in the first group, <code>2</code> for all shortcodes in the "
+"second group, ..."
+msgstr ""
+"Možete odrediti grupe tako što ćete podesiti ovu vrednost na <code>1</code> "
+"za sve shortcode-ove u prvoj grupi, <code>2</code> za sve shortcode-ove u "
+"drugoj grupi..."
+
+#: class/psk_s2msfb.admin.manager.class.php:315
+msgid ""
+"The first shortcode of every group will display the search box and "
+"performing a search in a box will launch a search in all shortcodes of the "
+"same group."
+msgstr ""
+"Prvi shortcode svake grupe prikazaće okvir za pretragu i, pretraživanjem u "
+"okviru, pokrenuće pretragu u svim shortcode-ovima u istoj grupi. "
+
+#: class/psk_s2msfb.admin.manager.class.php:319
+msgid "How to display search results"
+msgstr "Kako prikazati rezultate pretrage"
+
+#: class/psk_s2msfb.admin.manager.class.php:322
+msgid "Files are flat displayed with full path between parenthesis"
+msgstr "Datoteke su prikazane u celini, sa punim putanjama između zagrada "
+
+#: class/psk_s2msfb.admin.manager.class.php:324
+msgid "Can be set to <code>1</code> to display files without path"
+msgstr ""
+"Može se podesiti na <code>1</code> za prikazivanje datoteka bez putanje"
+
+#: class/psk_s2msfb.admin.manager.class.php:325
+msgid "Can be set to <code>2</code> to display files group by path"
+msgstr ""
+"Može se podesiti na <code>2</code> za prikazivanje grupa datoteka po putanji"
+
+#: class/psk_s2msfb.admin.manager.class.php:326
+msgid "Can be set to <code>3</code> to display files group by extension"
+msgstr ""
+"Može se podesiti na <code>3</code> za prikazivanje grupa datoteka po "
+"ekstenziji"
+
+#: class/psk_s2msfb.admin.manager.class.php:327
+msgid ""
+"Can be set to <code>4</code> to display files group by extension with full "
+"path between parenthesis"
+msgstr ""
+"Može se podesiti na <code>4</code> za prikazivanje grupa datoteka po "
+"ekstenziji sa punom putanjom između zagrada"
+
+#: class/psk_s2msfb.admin.manager.class.php:331
+msgid "Sort files in directories by a criteria"
+msgstr "Sortiraj datoteke u direktorijumima po kriterijumima"
+
+#: class/psk_s2msfb.admin.manager.class.php:334
+msgid "Files are sorted by name"
+msgstr "Datoteke su sortirane po nazivima"
+
+#: class/psk_s2msfb.admin.manager.class.php:336
+msgid "Can be set to <code>0D</code> to sort files by name descendant"
+msgstr ""
+"Može se podesiti na <code>0D</code>da biste datoteke sortirali po opadajućim "
+"nazivima "
+
+#: class/psk_s2msfb.admin.manager.class.php:337
+msgid "Can be set to <code>1</code> to sort files by extension"
+msgstr ""
+"Može se podesiti na <code>1</code> za sortiranje datoteka po ekstenziji"
+
+#: class/psk_s2msfb.admin.manager.class.php:338
+msgid "Can be set to <code>1D</code> to sort files by extension descendant"
+msgstr ""
+"Može se podesiti na <code>1D</code>za sortiranje datoteka po opadajućoj "
+"ekstenziji"
+
+#: class/psk_s2msfb.admin.manager.class.php:339
+msgid "Can be set to <code>2</code> to sort files by size"
+msgstr "Može se podesiti na <code>2</code> za sortiranje datoteka po veličini"
+
+#: class/psk_s2msfb.admin.manager.class.php:340
+msgid "Can be set to <code>2D</code> to sort files by size descendant"
+msgstr ""
+"Može se podesiti na <code>2D</code> za sortiranje datoteka prema opadajućoj "
+"veličini"
+
+#: class/psk_s2msfb.admin.manager.class.php:341
+msgid "Can be set to <code>3</code> to sort files by modification date"
+msgstr ""
+"Može se podesiti na <code>3</code> za sortiranje datoteka prema datumima "
+"izmena"
+
+#: class/psk_s2msfb.admin.manager.class.php:342
+msgid ""
+"Can be set to <code>3D</code> to sort files by modification date descendant"
+msgstr ""
+"Može se podesiti na <code>3D</code> za sortiranje datoteka prema opadajućim "
+"datumima izmena"
+
+#: class/psk_s2msfb.admin.manager.class.php:343
+msgid "Can be set to <code>4</code> to sort files by birth date"
+msgstr ""
+"Može se podesiti na <code>4</code> za sortiranje datoteka prema datumu "
+"nastanka"
+
+#: class/psk_s2msfb.admin.manager.class.php:344
+msgid "Can be set to <code>4D</code> to sort files by birth date descendant"
+msgstr ""
+"Može se podesiti na <code>4D</code> za sortiranje datoteka prema opadajućem "
+"datumu nastanka"
+
+#: class/psk_s2msfb.admin.manager.class.php:358
+msgid ""
+"It seems you have xebug installed and try to delete a very deep directory."
+msgstr ""
+"Izgleda da imate instaliran xebug i pokušavate da obrišete veoma dubok "
+"direktorijum."
+
+#: class/psk_s2msfb.admin.manager.class.php:359
+#: class/psk_s2msfb.admin.settings.class.php:61
+#: class/psk_s2msfb.admin.stats.class.php:68
+msgid "An error occurs"
+msgstr "Došlo je do greške"
+
+#: class/psk_s2msfb.admin.manager.class.php:360
+msgid "Please wait..."
+msgstr "Molimo sačekajte..."
+
+#: class/psk_s2msfb.admin.manager.class.php:361
+msgid "Rename Directory"
+msgstr "Promenite naziv direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:362
+msgid "Rename File"
+msgstr "Promenite naziv datoteke"
+
+#: class/psk_s2msfb.admin.manager.class.php:363
+msgid "Rename"
+msgstr "Promenite naziv"
+
+#: class/psk_s2msfb.admin.manager.class.php:364
+msgid "Comment Directory"
+msgstr "Komentar za direktorijum"
+
+#: class/psk_s2msfb.admin.manager.class.php:365
+msgid "Comment File"
+msgstr "Komentar za datoteku"
+
+#: class/psk_s2msfb.admin.manager.class.php:366
+#: class/psk_s2msfb.admin.manager.class.php:604
+msgid "Comment"
+msgstr "Komentar"
+
+#: class/psk_s2msfb.admin.manager.class.php:367
+msgid "Enter a comment or leave blank to disable comment"
+msgstr ""
+"Unesite komentar ili ostavite prazno polje da biste deaktivirali komentare"
+
+#: class/psk_s2msfb.admin.manager.class.php:368
+msgid "Change Directory Display Name"
+msgstr "Promeni naziv za prikazivanje direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:369
+msgid "Change File Display Name"
+msgstr "Promeni naziv za prikazivanje datoteke"
+
+#: class/psk_s2msfb.admin.manager.class.php:370
+msgid "Change Display Name"
+msgstr "Prikaži naziv za prikazivanje"
+
+#: class/psk_s2msfb.admin.manager.class.php:371
+msgid "Enter a displayed name or leave blank to disable the displayed name"
+msgstr ""
+"Unesite prikazani naziv ili ostavite prazno da biste deaktivirali prikazani "
+"naziv"
+
+#: class/psk_s2msfb.admin.manager.class.php:373
+msgid ""
+"Directory and all children will be deleted.<br/>You can not undo this action."
+msgstr ""
+"Direktorijum će biti obrisan sa svim podređenima. <br/>Ne možete poništiti "
+"ovu aktivnost."
+
+#: class/psk_s2msfb.admin.manager.class.php:374
+msgid "File will be deleted.<br/>You can not undo this action."
+msgstr "Datoteka će biti obrisana. <br/>Ne možete poništiti ovu aktivnost."
+
+#: class/psk_s2msfb.admin.manager.class.php:375
+#: class/psk_s2msfb.admin.settings.class.php:193
+msgid "Delete"
+msgstr "Obriši"
+
+#: class/psk_s2msfb.admin.manager.class.php:376
+msgid "Delete Directory"
+msgstr "Obriši direktorijum"
+
+#: class/psk_s2msfb.admin.manager.class.php:377
+msgid "Delete File"
+msgstr "Obriši datoteku"
+
+#: class/psk_s2msfb.admin.manager.class.php:378
+msgid "File has been successfully renamed"
+msgstr "Naziv datoteke uspešno je promenjen."
+
+#: class/psk_s2msfb.admin.manager.class.php:379
+msgid "Directory has been successfully renamed"
+msgstr "Naziv direktorijuma uspešno je promenjen."
+
+#: class/psk_s2msfb.admin.manager.class.php:380
+msgid "File has been successfully commented"
+msgstr "Komentar datoteke uspešno je postavljen."
+
+#: class/psk_s2msfb.admin.manager.class.php:381
+msgid "Directory has been successfully commented"
+msgstr "Komentar direktorijuma uspešno je postavljen."
+
+#: class/psk_s2msfb.admin.manager.class.php:382
+msgid "File has been successfully virtually renamed"
+msgstr "Naziv datoteke uspešno je virtuelno promenjen."
+
+#: class/psk_s2msfb.admin.manager.class.php:383
+msgid "Directory has been successfully virtually renamed"
+msgstr "Naziv direktorijuma uspešno je virtuelno promenjen."
+
+#: class/psk_s2msfb.admin.manager.class.php:384
+msgid "File has been successfully deleted"
+msgstr "Datoteka je uspešno obrisana"
+
+#: class/psk_s2msfb.admin.manager.class.php:385
+msgid "Directory has been successfully deleted"
+msgstr "Direktorijum je uspešno obrisan"
+
+#: class/psk_s2msfb.admin.manager.class.php:386
+#: class/psk_s2msfb.admin.manager.class.php:642
+#: class/psk_s2msfb.admin.settings.class.php:62
+#: class/psk_s2msfb.admin.settings.class.php:281
+#: class/psk_s2msfb.admin.settings.class.php:292
+#: class/psk_s2msfb.admin.settings.class.php:298
+#: class/psk_s2msfb.admin.settings.class.php:309
+#: class/psk_s2msfb.admin.stats.class.php:69
+msgid "Error!"
+msgstr "Greška!"
+
+#: class/psk_s2msfb.admin.manager.class.php:387
+#: class/psk_s2msfb.admin.manager.class.php:512
+#: class/psk_s2msfb.admin.manager.class.php:643
+#: class/psk_s2msfb.admin.settings.class.php:63
+#: class/psk_s2msfb.admin.settings.class.php:99
+#: class/psk_s2msfb.admin.settings.class.php:126
+#: class/psk_s2msfb.admin.settings.class.php:329
+#: class/psk_s2msfb.admin.stats.class.php:70
+msgid "Success!"
+msgstr "Uspeh!"
+
+#: class/psk_s2msfb.admin.manager.class.php:388
+#: class/psk_s2msfb.admin.manager.class.php:644
+#: class/psk_s2msfb.admin.settings.class.php:64
+#: class/psk_s2msfb.admin.settings.class.php:137
+#: class/psk_s2msfb.admin.settings.class.php:139
+#: class/psk_s2msfb.admin.stats.class.php:71
+msgid "Info!"
+msgstr "Info!"
+
+#: class/psk_s2msfb.admin.manager.class.php:389
+#: class/psk_s2msfb.admin.manager.class.php:645
+#: class/psk_s2msfb.admin.settings.class.php:65
+#: class/psk_s2msfb.admin.settings.class.php:134
+#: class/psk_s2msfb.admin.stats.class.php:72
+msgid "Warning!"
+msgstr "Upozorenje!"
+
+#: class/psk_s2msfb.admin.manager.class.php:396
+#: class/psk_s2msfb.class.php:1282
+msgid "Please wait while loading..."
+msgstr "Molimo sačekajte dok se učita.."
+
+#: class/psk_s2msfb.admin.manager.class.php:422
+msgid ""
+"Files structure is cached to improve performance and to check which file has "
+"been added, modified or deleted. For example, the <em>s2memberSBF What's "
+"new ?</em> Widget uses this cache to display latest available files."
+msgstr ""
+"Struktura datoteka keširana je radi poboljšanja performansi i provera koje "
+"su datoteke dodate, modifikovane ili izmenjene. Na primer, <em>s2memberSBF "
+"Šta je novo? </em> Widget koristi ovaj keš za prikazivanje najnovijih "
+"raspoloživih datoteka."
+
+#: class/psk_s2msfb.admin.manager.class.php:424
+msgid ""
+"The cache is refreshed every hour and it is automatically executed when you "
+"delete or rename files/directories from the dashboard but when you manage "
+"files via SSH, FTP, ... you can refresh the cache here !"
+msgstr ""
+"Keš se osvežava na svakih sat vremena i automatski svaki put kad obrišete "
+"datoteke ili direktorijume sa kontrolne table ili kad im promenite nazive; "
+"ali kad upravljate datotekama preko SSH, FTP-a, možete osvežiti keš ovde!"
+
+#: class/psk_s2msfb.admin.manager.class.php:442
+msgid "The cache has been totally successfully re-computed !"
+msgstr "Keš je u potpunosti uspešno ponovo uspostavljen!"
+
+#: class/psk_s2msfb.admin.manager.class.php:446
+msgid "The cache has been successfully refreshed !"
+msgstr "Keš je uspešno osvežen!"
+
+#: class/psk_s2msfb.admin.manager.class.php:454
+msgid "1 new file"
+msgstr "1 nova datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:454
+#, php-format
+msgid "%s new files"
+msgstr "%s nove datoteke"
+
+#: class/psk_s2msfb.admin.manager.class.php:473
+msgid "1 modified file"
+msgstr "1 izmenjena datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:473
+#, php-format
+msgid "%s modified files"
+msgstr "%s izmenjenih datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:492
+msgid "1 deleted file"
+msgstr "1 obrisana datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:492
+#, php-format
+msgid "%s deleted files"
+msgstr "%s obrisanih datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:524
+#: class/psk_s2msfb.admin.manager.class.php:527
+msgid "No file found"
+msgstr "Nije pronađena nijedna datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:529
+msgid "1 directory found"
+msgstr "1 direktorijum pronađen"
+
+#: class/psk_s2msfb.admin.manager.class.php:531
+#, php-format
+msgid "%s directories found"
+msgstr "%s pronađena direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:535
+msgid "1 file found"
+msgstr "1 datoteka pronađena"
+
+#: class/psk_s2msfb.admin.manager.class.php:537
+msgid "1 file and 1 directory found"
+msgstr "Pronađena 1 datoteka i 1 direktorijum"
+
+#: class/psk_s2msfb.admin.manager.class.php:539
+#, php-format
+msgid "1 file and %s directories found"
+msgstr "Pronađena 1 datoteka i %s direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:543
+#, php-format
+msgid "%s files found"
+msgstr "Pronađeno %s datoteka"
+
+#: class/psk_s2msfb.admin.manager.class.php:545
+#, php-format
+msgid "%s files and 1 directory found"
+msgstr "Pronađeno %s datoteka i 1 direktorijum"
+
+#: class/psk_s2msfb.admin.manager.class.php:547
+#, php-format
+msgid "%s files and %s directories found"
+msgstr "Pronađeno %s datoteka i %s direktorijuma"
+
+#: class/psk_s2msfb.admin.manager.class.php:550
+#, php-format
+msgid "Last file scan on %s in %ss (%s)"
+msgstr "Poslednje skeniranje datoteke na %s u %ss (%s)"
+
+#: class/psk_s2msfb.admin.manager.class.php:556
+#, php-format
+msgid "Next file scan on %s"
+msgstr "Sledeće skeniranje datoteke u %s"
+
+#: class/psk_s2msfb.admin.manager.class.php:565
+msgid "Refresh cache now"
+msgstr "Osveži keš"
+
+#: class/psk_s2msfb.admin.manager.class.php:566
+msgid "Can be very long..."
+msgstr "Može potrajati duže vreme"
+
+#: class/psk_s2msfb.admin.manager.class.php:601
+#: class/psk_s2msfb.admin.manager.class.php:654
+msgid "Tag"
+msgstr "Oznaka"
+
+#: class/psk_s2msfb.admin.manager.class.php:602
+#: class/psk_s2msfb.admin.manager.class.php:655
+msgid "Description"
+msgstr "Opis"
+
+#: class/psk_s2msfb.admin.manager.class.php:603
+msgid "Default value"
+msgstr "Podrazumevana vrednost"
+
+#: class/psk_s2msfb.admin.manager.class.php:656
+msgid "Value"
+msgstr "Vrednost"
+
+#: class/psk_s2msfb.admin.manager.class.php:677
+msgid "Full"
+msgstr "Puna"
+
+#: class/psk_s2msfb.admin.manager.class.php:680
+#: class/psk_s2msfb.admin.manager.class.php:790
+msgid "Yes"
+msgstr "Da"
+
+#: class/psk_s2msfb.admin.manager.class.php:683
+#: class/psk_s2msfb.admin.manager.class.php:741
+#: class/psk_s2msfb.admin.manager.class.php:793
+#: class/psk_s2msfb.widgets.class.php:53 class/psk_s2msfb.widgets.class.php:58
+#: class/psk_s2msfb.widgets.class.php:70
+#: class/psk_s2msfb.widgets.class.php:680
+#: class/psk_s2msfb.widgets.class.php:692
+msgid "No"
+msgstr "Ne"
+
+#: class/psk_s2msfb.admin.manager.class.php:700
+msgid "Sort files by name"
+msgstr "Sortiraj datoteke po nazivu"
+
+#: class/psk_s2msfb.admin.manager.class.php:703
+msgid "Sort files by name descendant"
+msgstr "Sortiraj datoteke po opadajućem nazivu"
+
+#: class/psk_s2msfb.admin.manager.class.php:706
+msgid "Sort files by extension"
+msgstr "Sortiraj datoteke po ekstenziji"
+
+#: class/psk_s2msfb.admin.manager.class.php:709
+msgid "Sort files by extension descendant"
+msgstr "Sortiraj datoteke po opadajućoj ekstenziji"
+
+#: class/psk_s2msfb.admin.manager.class.php:712
+msgid "Sort files by size"
+msgstr "Sortiraj datoteke po veličini"
+
+#: class/psk_s2msfb.admin.manager.class.php:715
+msgid "Sort files by size descendant"
+msgstr "Sortiraj datoteke po opadajućoj veličini"
+
+#: class/psk_s2msfb.admin.manager.class.php:718
+msgid "Sort files by modification date"
+msgstr "Sortiraj datoteke po datumu izmena"
+
+#: class/psk_s2msfb.admin.manager.class.php:721
+msgid "Sort files by modification date descendant"
+msgstr "Sortiraj datoteke po opadajućem datumu izmena"
+
+#: class/psk_s2msfb.admin.manager.class.php:724
+msgid "Sort files by birth date"
+msgstr "Sortiraj datoteke po datumu nastanka"
+
+#: class/psk_s2msfb.admin.manager.class.php:727
+msgid "Sort files by birth date descendant"
+msgstr "Sortiraj datoteke po opadajućem datumu nastanka"
+
+#: class/psk_s2msfb.admin.manager.class.php:744
+msgid "Only files"
+msgstr "Samo datoteke"
+
+#: class/psk_s2msfb.admin.manager.class.php:747
+msgid "Only directories"
+msgstr "Samo direktorijumi"
+
+#: class/psk_s2msfb.admin.manager.class.php:750
+msgid "Files and directories"
+msgstr "Datoteke i direktorijumi"
+
+#: class/psk_s2msfb.admin.manager.class.php:762
+msgid "Flat with path"
+msgstr "Samo direktorijumi"
+
+#: class/psk_s2msfb.admin.manager.class.php:765
+msgid "Flat without path"
+msgstr "Ravno bez putanje"
+
+#: class/psk_s2msfb.admin.manager.class.php:768
+msgid "Group by path"
+msgstr "Ravno sa putanjom"
+
+#: class/psk_s2msfb.admin.manager.class.php:771
+msgid "Group by extension"
+msgstr "Grupiši po ekstenziji"
+
+#: class/psk_s2msfb.admin.manager.class.php:774
+msgid "Group by extension with path"
+msgstr "Grupiši po ekstenziji sa putanjom"
+
+#: class/psk_s2msfb.admin.manager.class.php:853
+msgid "Copy paste this shortcode in pages :"
+msgstr "Kopirajte i nalepite ovaj shortcode na stranicama:"
+
+#: class/psk_s2msfb.admin.settings.class.php:77
+msgid "Do not delete"
+msgstr "Ne briši"
+
+#: class/psk_s2msfb.admin.settings.class.php:78
+msgid "Keep 1 week"
+msgstr "Čuvaj 1 nedelju"
+
+#: class/psk_s2msfb.admin.settings.class.php:79
+msgid "Keep 1 month"
+msgstr "Čuvaj 1 mesec"
+
+#: class/psk_s2msfb.admin.settings.class.php:80
+msgid "Keep 3 months"
+msgstr "Čuvaj 3 meseca "
+
+#: class/psk_s2msfb.admin.settings.class.php:81
+msgid "Keep 6 months"
+msgstr "Čuvaj 6 meseci"
+
+#: class/psk_s2msfb.admin.settings.class.php:82
+msgid "Keep 1 year"
+msgstr "Čuvaj 1 godinu"
+
+#: class/psk_s2msfb.admin.settings.class.php:83
+msgid "Keep 2 years"
+msgstr "Čuvaj 2 godine "
+
+#: class/psk_s2msfb.admin.settings.class.php:99
+msgid "Download records deleted"
+msgstr "Zapisi o preuzimanju su obrisani"
+
+#: class/psk_s2msfb.admin.settings.class.php:126
+msgid "General settings saved"
+msgstr "Opšte postavke su sačuvane"
+
+#: class/psk_s2msfb.admin.settings.class.php:134
+msgid "Download logs limit and retention disabled"
+msgstr "Deaktivirano ograničenje dnevnika preuzimanja i zadržavanja"
+
+#: class/psk_s2msfb.admin.settings.class.php:137
+msgid "Download logs limit disabled"
+msgstr "Deaktivirano ograničenje dnevnika preuzimanja"
+
+#: class/psk_s2msfb.admin.settings.class.php:139
+msgid "Download logs retention disabled"
+msgstr "Deaktivirani dnevnici zadržavanja preuzimanja "
+
+#: class/psk_s2msfb.admin.settings.class.php:149
+msgid "Main settings"
+msgstr "Glavne postavke"
+
+#: class/psk_s2msfb.admin.settings.class.php:152
+msgid "Logs limit"
+msgstr "Ograničenje dnevnika"
+
+#: class/psk_s2msfb.admin.settings.class.php:155
+msgid ""
+"When download records count has reach this limit, older records are deleted"
+msgstr "Kad zapisi dnevnika dostignu ovo ograničenje, stariji zapisi se brišu"
+
+#: class/psk_s2msfb.admin.settings.class.php:160
+msgid "Logs retention"
+msgstr "Zadržavanje dnevnika"
+
+#: class/psk_s2msfb.admin.settings.class.php:168
+msgid "Older download records are deleted"
+msgstr "Stariji zapisi o preuzimanjima su obrisani"
+
+#: class/psk_s2msfb.admin.settings.class.php:176
+#, php-format
+msgid "There are %s records now"
+msgstr "Sada ima %s zapisa"
+
+#: class/psk_s2msfb.admin.settings.class.php:180
+msgid "Delete all records..."
+msgstr "Obriši sve zapise..."
+
+#: class/psk_s2msfb.admin.settings.class.php:184
+msgid "Delete all download records"
+msgstr "Obriši sve preuzete zapise"
+
+#: class/psk_s2msfb.admin.settings.class.php:187
+msgid "Hum... you should backup all download records before."
+msgstr "Hm… Treba unapred da uradite backup za sve preuzete zapise"
+
+#: class/psk_s2msfb.admin.settings.class.php:188
+#: class/psk_s2msfb.admin.stats.class.php:222
+msgid "Export all data as XML"
+msgstr "Izvezi podatke kao XML"
+
+#: class/psk_s2msfb.admin.settings.class.php:189
+#: class/psk_s2msfb.admin.stats.class.php:223
+msgid "Export all data as Excel CSV"
+msgstr "Izvezi sve podatke kao Excel CSV"
+
+#: class/psk_s2msfb.admin.settings.class.php:192
+msgid "Close"
+msgstr "Zatvori"
+
+#: class/psk_s2msfb.admin.settings.class.php:203
+msgid "Access settings"
+msgstr "Podešavanja pristupa"
+
+#: class/psk_s2msfb.admin.settings.class.php:206
+msgid "Stats capabilities"
+msgstr "Funkcionalnosti statistike"
+
+#: class/psk_s2msfb.admin.settings.class.php:209
+#: class/psk_s2msfb.admin.settings.class.php:217
+msgid "Separate requested capabilities with coma"
+msgstr "Odvojite tražene funkcionalnosti zarezima"
+
+#: class/psk_s2msfb.admin.settings.class.php:209
+#: class/psk_s2msfb.admin.settings.class.php:217
+msgid "Available capabilities here"
+msgstr "Raspoložive funkcionalnosti ovde"
+
+#: class/psk_s2msfb.admin.settings.class.php:214
+msgid "File management capabilities"
+msgstr "Funkcionalnosti upravljanja datotekama"
+
+#: class/psk_s2msfb.admin.settings.class.php:225
+#: class/psk_s2msfb.admin.settings.class.php:429
+msgid "Save Changes"
+msgstr "Sačuvaj izmene"
+
+#: class/psk_s2msfb.admin.settings.class.php:240
+msgid "Never"
+msgstr "Nikad"
+
+#: class/psk_s2msfb.admin.settings.class.php:241
+msgid "Daily"
+msgstr "Svakodnevno"
+
+#: class/psk_s2msfb.admin.settings.class.php:242
+msgid "Weekly"
+msgstr "jednom nedeljno"
+
+#: class/psk_s2msfb.admin.settings.class.php:243
+msgid "Monthly"
+msgstr "jednom mesečno"
+
+#: class/psk_s2msfb.admin.settings.class.php:281
+#, php-format
+msgid "From email address %s is invalid"
+msgstr "Sa mail adrese %s je nevažeći"
+
+#: class/psk_s2msfb.admin.settings.class.php:292
+#, php-format
+msgid "Notify email address %s is invalid"
+msgstr "Obaveštenje mail adrese je %s nevažeće"
+
+#: class/psk_s2msfb.admin.settings.class.php:298
+#, php-format
+msgid "From report email address %s is invalid"
+msgstr "Mail adresa %s sa izveštaja je nevažeća "
+
+#: class/psk_s2msfb.admin.settings.class.php:309
+#, php-format
+msgid "Notify report email address %s is invalid"
+msgstr "Mail adresa %s za podnošenje izveštaja je nevažeća "
+
+#: class/psk_s2msfb.admin.settings.class.php:329
+msgid "Notification settings saved"
+msgstr "Postavke obaveštenja sačuvane"
+
+#: class/psk_s2msfb.admin.settings.class.php:347
+msgid "Real-time notification"
+msgstr "Obaveštenje u realnom vremenu"
+
+#: class/psk_s2msfb.admin.settings.class.php:349
+msgid "Notify by email"
+msgstr "Obavesti putem mail-a"
+
+#: class/psk_s2msfb.admin.settings.class.php:355
+#: class/psk_s2msfb.admin.settings.class.php:401
+msgid "From email address"
+msgstr "Sa mail adrese"
+
+#: class/psk_s2msfb.admin.settings.class.php:361
+#: class/psk_s2msfb.admin.settings.class.php:407
+msgid "Notify email address"
+msgstr "Mail adresa obaveštenja"
+
+#: class/psk_s2msfb.admin.settings.class.php:364
+#: class/psk_s2msfb.admin.settings.class.php:410
+msgid "Separate multiple email address with a comma (,)"
+msgstr "Odvojite više mail adresa zarezima (,)"
+
+#: class/psk_s2msfb.admin.settings.class.php:368
+#: class/psk_s2msfb.admin.settings.class.php:414
+msgid "Email subject"
+msgstr "Predmet mail-a"
+
+#: class/psk_s2msfb.admin.settings.class.php:371
+#: class/psk_s2msfb.admin.settings.class.php:417
+msgid "You can use variable %blogname%"
+msgstr "Možete koristiti promenljivu %naziv bloga%"
+
+#: class/psk_s2msfb.admin.settings.class.php:377
+msgid "Notification reports"
+msgstr "Izveštaji o obaveštenjima"
+
+#: class/psk_s2msfb.admin.settings.class.php:379
+msgid "Report Frequency"
+msgstr "Učestalost izveštaja"
+
+#: class/psk_s2msfb.admin.settings.class.php:389
+msgid "Delivery hour"
+msgstr "Sat isporuke"
+
+#: class/psk_s2msfb.admin.settings.class.php:424
+#, php-format
+msgid "Next report : %s"
+msgstr "Sledeći izveštaj: %s"
+
+#: class/psk_s2msfb.admin.stats.class.php:117
+#: class/psk_s2msfb.admin.stats.class.php:263
+#: class/psk_s2msfb.admin.stats.class.php:381 class/psk_s2msfb.class.php:1407
+#: class/psk_s2msfb.class.php:1431 class/psk_s2msfb.class.php:1452
+#: class/psk_s2msfb.widgets.class.php:340
+#: class/psk_s2msfb.widgets.class.php:475
+#: class/psk_s2msfb.widgets.class.php:526
+#: class/psk_s2msfb.widgets.class.php:660
+msgid "No download"
+msgstr "Nema preuzimanja"
+
+#: class/psk_s2msfb.admin.stats.class.php:122
+#: class/psk_s2msfb.admin.stats.class.php:268
+#: class/psk_s2msfb.admin.stats.class.php:386
+msgid "Display"
+msgstr "Prikaži"
+
+#: class/psk_s2msfb.admin.stats.class.php:124
+#: class/psk_s2msfb.admin.stats.class.php:270
+#: class/psk_s2msfb.admin.stats.class.php:388
+msgid "all records"
+msgstr "sve zapise"
+
+#: class/psk_s2msfb.admin.stats.class.php:126
+#: class/psk_s2msfb.admin.stats.class.php:272
+#: class/psk_s2msfb.admin.stats.class.php:390
+msgid "one day"
+msgstr "jedan dan"
+
+#: class/psk_s2msfb.admin.stats.class.php:127
+#: class/psk_s2msfb.admin.stats.class.php:273
+#: class/psk_s2msfb.admin.stats.class.php:391
+msgid "one week"
+msgstr "jedna nedelja"
+
+#: class/psk_s2msfb.admin.stats.class.php:128
+#: class/psk_s2msfb.admin.stats.class.php:274
+#: class/psk_s2msfb.admin.stats.class.php:392
+msgid "one month"
+msgstr "jedan mesec"
+
+#: class/psk_s2msfb.admin.stats.class.php:129
+#: class/psk_s2msfb.admin.stats.class.php:275
+#: class/psk_s2msfb.admin.stats.class.php:393
+msgid "one year"
+msgstr "jedna godina"
+
+#: class/psk_s2msfb.admin.stats.class.php:143
+#: class/psk_s2msfb.admin.stats.class.php:285
+#: class/psk_s2msfb.admin.stats.class.php:408
+#, php-format
+msgid ""
+"%1$s distinct file(s) downloaded %2$s time(s) by %3$s distinct user(s) for "
+"24 hours"
+msgstr ""
+"%1$s različitih datoteka preuzeto %2$s puta od strane %3$s različitih "
+"korisnika za 24 sata"
+
+#: class/psk_s2msfb.admin.stats.class.php:146
+#: class/psk_s2msfb.admin.stats.class.php:288
+#: class/psk_s2msfb.admin.stats.class.php:411
+#, php-format
+msgid ""
+"%1$s distinct file(s) downloaded %2$s time(s) by %3$s distinct user(s) for "
+"one week"
+msgstr ""
+"%1$s različitih datoteka preuzeto %2$s puta od strane %3$s različitih "
+"korisnika za nedelju dana"
+
+#: class/psk_s2msfb.admin.stats.class.php:149
+#: class/psk_s2msfb.admin.stats.class.php:291
+#: class/psk_s2msfb.admin.stats.class.php:414
+#, php-format
+msgid ""
+"%1$s distinct file(s) downloaded %2$s time(s) by %3$s distinct user(s) for "
+"one month"
+msgstr ""
+"%1$s različitih datoteka preuzeto %2$s puta od strane %3$s različitih "
+"korisnika za mesec dana"
+
+#: class/psk_s2msfb.admin.stats.class.php:152
+#: class/psk_s2msfb.admin.stats.class.php:294
+#: class/psk_s2msfb.admin.stats.class.php:417
+#, php-format
+msgid ""
+"%1$s distinct file(s) downloaded %2$s time(s) by %3$s distinct user(s) for "
+"one year"
+msgstr ""
+"%1$s različitih datoteka preuzeto %2$s puta od strane %3$s različitih "
+"korisnika za godinu dana"
+
+#: class/psk_s2msfb.admin.stats.class.php:155
+#: class/psk_s2msfb.admin.stats.class.php:297
+#: class/psk_s2msfb.admin.stats.class.php:420
+#, php-format
+msgid "%1$s distinct file(s) downloaded %2$s time(s) by %3$s distinct user(s)"
+msgstr ""
+"%1$s različitih datoteka preuzeto %2$s puta od strane %3$s različitih "
+"korisnika"
+
+#: class/psk_s2msfb.admin.stats.class.php:162
+#: class/psk_s2msfb.admin.stats.class.php:194
+#: class/psk_s2msfb.admin.stats.class.php:520
+#: class/psk_s2msfb.admin.stats.class.php:526
+msgid "When"
+msgstr "Kad"
+
+#: class/psk_s2msfb.admin.stats.class.php:163
+#: class/psk_s2msfb.admin.stats.class.php:195
+#: class/psk_s2msfb.admin.stats.class.php:304 class/psk_s2msfb.class.php:1411
+msgid "File"
+msgstr "Datoteka"
+
+#: class/psk_s2msfb.admin.stats.class.php:164
+#: class/psk_s2msfb.admin.stats.class.php:196
+#: class/psk_s2msfb.admin.stats.class.php:427 class/psk_s2msfb.class.php:1435
+msgid "User"
+msgstr "Korisnik"
+
+#: class/psk_s2msfb.admin.stats.class.php:165
+#: class/psk_s2msfb.admin.stats.class.php:197
+msgid "IP Address"
+msgstr "IP adresa"
+
+#: class/psk_s2msfb.admin.stats.class.php:305
+#: class/psk_s2msfb.admin.stats.class.php:428 class/psk_s2msfb.class.php:1412
+#: class/psk_s2msfb.class.php:1436
+msgid "Count"
+msgstr "Korisnik"
+
+#: class/psk_s2msfb.admin.stats.class.php:321
+#: class/psk_s2msfb.admin.stats.class.php:451
+#, php-format
+msgid "Total : %s"
+msgstr "Ukupno: %s"
+
+#: class/psk_s2msfb.admin.stats.class.php:509
+msgid "No current download"
+msgstr "Trenutno nema preuzimanja"
+
+#: class/psk_s2msfb.admin.stats.class.php:521
+#: class/psk_s2msfb.admin.stats.class.php:527
+msgid "What"
+msgstr "Šta"
+
+#: class/psk_s2msfb.admin.stats.class.php:522
+#: class/psk_s2msfb.admin.stats.class.php:528
+msgid "Who"
+msgstr "Ko"
+
+#: class/psk_s2msfb.class.php:303
+msgid "Please type some words!"
+msgstr "Molimo, unesite neke reči!"
+
+#: class/psk_s2msfb.class.php:405
+msgid "Please reload the page"
+msgstr "Ponovo učitajte stranicu"
+
+#: class/psk_s2msfb.class.php:486
+msgid "Permission denied"
+msgstr "Dozvola odbijena"
+
+#: class/psk_s2msfb.class.php:705 class/psk_s2msfb.class.php:892
+msgid "Search..."
+msgstr "Traži..."
+
+#: class/psk_s2msfb.class.php:767
+#, php-format
+msgid "Path <strong>%s</strong>"
+msgstr "Putanja <strong>%s</strong>"
+
+#: class/psk_s2msfb.class.php:818 class/psk_s2msfb.class.php:878
+#: class/psk_s2msfb.widgets.class.php:462
+#: class/psk_s2msfb.widgets.class.php:648
+#: class/psk_s2msfb.widgets.class.php:1056
+#, php-format
+msgid "in %s"
+msgstr "u %s"
+
+#: class/psk_s2msfb.class.php:827
+#, php-format
+msgid "Extension <strong>%s</strong>"
+msgstr "Ekstenzija <strong>%s</strong>"
+
+#: class/psk_s2msfb.class.php:890
+msgid "Click to reset"
+msgstr "Kliknite da biste vratili na početne vrednosti"
+
+#: class/psk_s2msfb.class.php:891
+msgid "Click to search"
+msgstr "Kliknite da biste pretražili"
+
+#: class/psk_s2msfb.class.php:910
+msgid "No result"
+msgstr "Nema rezultata"
+
+#: class/psk_s2msfb.class.php:1096
+msgid "Download this directory as a zip file"
+msgstr "Preuzmite ovaj direktorijum kao zip datoteku"
+
+#: class/psk_s2msfb.class.php:1096
+msgid "Download"
+msgstr "Preuzmi"
+
+#: class/psk_s2msfb.class.php:1118 class/psk_s2msfb.class.php:1190
+#: class/psk_s2msfb.widgets.class.php:973
+#, php-format
+msgid "Modified on %s"
+msgstr "Izmenjen %s"
+
+#: class/psk_s2msfb.class.php:1127 class/psk_s2msfb.class.php:1199
+#: class/psk_s2msfb.widgets.class.php:971
+#, php-format
+msgid "Added on %s"
+msgstr "Dodat %s"
+
+#: class/psk_s2msfb.class.php:1154
+msgid "You already have downloaded this directory"
+msgstr "Već ste preuzeli ovaj direktorijum"
+
+#: class/psk_s2msfb.class.php:1242 inc/tools.class.php:287
+#: inc/tools.class.php:289
+msgid "B"
+msgstr "B"
+
+#: class/psk_s2msfb.class.php:1253
+msgid "Preview"
+msgstr "Pregled"
+
+#: class/psk_s2msfb.class.php:1256
+msgid "You already have downloaded this file"
+msgstr "Već ste preuzeli ovu datoteku"
+
+#: class/psk_s2msfb.class.php:1296
+msgid ""
+"You already have downloaded this file.\\nAre you sure you want to download "
+"it again ?"
+msgstr ""
+"Već ste preuzeli ovu datoteku.\\n Jeste li sigurni kako želite da je "
+"preuzmete još jednom?"
+
+#: class/psk_s2msfb.class.php:1306
+msgid "— Confirm File Download —"
+msgstr "— Potvrdite preuzimanje datoteke —"
+
+#: class/psk_s2msfb.class.php:1307
+#, php-format
+msgid "You`ve downloaded %s protected %s in the last %s."
+msgstr "Preuzeli ste %s zaštićenih %s u poslednjih %s"
+
+#: class/psk_s2msfb.class.php:1307
+msgid "file"
+msgstr " datoteka"
+
+#: class/psk_s2msfb.class.php:1307
+msgid "files"
+msgstr " datoteke"
+
+#: class/psk_s2msfb.class.php:1307
+msgid "24 hours"
+msgstr "24 sata"
+
+#: class/psk_s2msfb.class.php:1307
+#, php-format
+msgid "%s days"
+msgstr "%s dana"
+
+#: class/psk_s2msfb.class.php:1308
+msgid "You`re entitled to UNLIMITED downloads though ( so, no worries )."
+msgstr "Dozvoljeno vam je NEOGRANIČENO preuzimanje (ne brinite)."
+
+#: class/psk_s2msfb.class.php:1308
+#, php-format
+msgid "You`re entitled to %s unique %s %s."
+msgstr "Dozvoljeno vam je %s jedinstveno %s %s."
+
+#: class/psk_s2msfb.class.php:1308
+msgid "download"
+msgstr "preuzimanje"
+
+#: class/psk_s2msfb.class.php:1308
+msgid "downloads"
+msgstr "preuzimanja"
+
+#: class/psk_s2msfb.class.php:1308
+msgid "each day"
+msgstr "svakog dana"
+
+#: class/psk_s2msfb.class.php:1308
+#, php-format
+msgid "every %s-day period"
+msgstr "posle svakih %s dana"
+
+#: class/psk_s2msfb.class.php:1398
+#, php-format
+msgid "Stats from %s to %s"
+msgstr "Statistika od %s do %s"
+
+#: class/psk_s2msfb.class.php:1457
+msgid "No data to report"
+msgstr "Nema podataka za izveštaj"
+
+#: class/psk_s2msfb.class.php:1534
+msgid "A file has been downloaded"
+msgstr "Datoteka je preuzeta"
+
+#: class/psk_s2msfb.class.php:1536
+msgid "Download Time"
+msgstr "Vreme preuzimanja"
+
+#: class/psk_s2msfb.class.php:1537
+msgid "File downloaded"
+msgstr "Preuzeta datoteka"
+
+#: class/psk_s2msfb.class.php:1538
+msgid "User ID"
+msgstr "ID korisnika"
+
+#: class/psk_s2msfb.class.php:1539
+msgid "User Login"
+msgstr "Prijavljivanje korisnika"
+
+#: class/psk_s2msfb.class.php:1540
+msgid "User Email"
+msgstr "Mail korisnika"
+
+#: class/psk_s2msfb.class.php:1541
+msgid "User Nice name"
+msgstr "Korisničko ime"
+
+#: class/psk_s2msfb.class.php:1542
+msgid "User Display name"
+msgstr "Korisničko ime koje se prikazuje"
+
+#: class/psk_s2msfb.class.php:1543
+msgid "User IP"
+msgstr "IP korisnika"
+
+#: class/psk_s2msfb.widgets.class.php:45
+msgid "Latest downloads"
+msgstr "Najnovija preuzimanja"
+
+#: class/psk_s2msfb.widgets.class.php:46
+msgid "Top downloads"
+msgstr "Najveći broj preuzimanja"
+
+#: class/psk_s2msfb.widgets.class.php:47
+msgid "Top downloads for a day"
+msgstr "Najveći broj preuzimanja za dan"
+
+#: class/psk_s2msfb.widgets.class.php:48
+msgid "Top downloads for a week"
+msgstr "Najveći broj preuzimanja"
+
+#: class/psk_s2msfb.widgets.class.php:49
+msgid "Top downloads for a month"
+msgstr "Najveći broj preuzimanja za mesec dana"
+
+#: class/psk_s2msfb.widgets.class.php:50
+msgid "Top downloads for a year"
+msgstr "Najveći broj preuzimanja za godinu dana"
+
+#: class/psk_s2msfb.widgets.class.php:54
+msgid "File icon"
+msgstr "Ikonica datoteke"
+
+#: class/psk_s2msfb.widgets.class.php:55
+msgid "Downloader Gravatar (only for Latest downloads type)"
+msgstr "Preuzeti Gravatar (samo za najnovije vrste preuzimanja)"
+
+#: class/psk_s2msfb.widgets.class.php:59
+#: class/psk_s2msfb.widgets.class.php:681
+msgid "Date + time"
+msgstr "Datum + vreme"
+
+#: class/psk_s2msfb.widgets.class.php:60
+#: class/psk_s2msfb.widgets.class.php:682
+msgid "Date only"
+msgstr "Samo datum"
+
+#: class/psk_s2msfb.widgets.class.php:63
+#: class/psk_s2msfb.widgets.class.php:685
+msgid "All"
+msgstr "Svi"
+
+#: class/psk_s2msfb.widgets.class.php:64
+#: class/psk_s2msfb.widgets.class.php:686
+msgid "All with reachable links for the current user only"
+msgstr "Svi raspoloživi linkovi samo za tekućeg korisnika"
+
+#: class/psk_s2msfb.widgets.class.php:65
+#: class/psk_s2msfb.widgets.class.php:687
+msgid "All without links"
+msgstr "Svi bez linkova"
+
+#: class/psk_s2msfb.widgets.class.php:66
+#: class/psk_s2msfb.widgets.class.php:688
+msgid "Only downloadable files by current user with links"
+msgstr "Samo datoteke koje tekući korisnik može preuzeti sa linkovima"
+
+#: class/psk_s2msfb.widgets.class.php:67
+#: class/psk_s2msfb.widgets.class.php:689
+msgid "Only downloadable files by current user without links"
+msgstr "Samo datoteke koje tekući korisnik može preuzeti bez linkova"
+
+#: class/psk_s2msfb.widgets.class.php:71
+#: class/psk_s2msfb.widgets.class.php:693
+msgid "In file name : First parent/file"
+msgstr "U nazivu datoteke: Prva nadređena/datoteka"
+
+#: class/psk_s2msfb.widgets.class.php:72
+#: class/psk_s2msfb.widgets.class.php:694
+msgid "In file name : Grand parent/First parent/file"
+msgstr "U nazivu datoteke: Druga nadređena/Prva nadređena/datoteka"
+
+#: class/psk_s2msfb.widgets.class.php:73
+#: class/psk_s2msfb.widgets.class.php:695
+msgid "In file name : First ancestor/.../file"
+msgstr "U nazivu datoteke: Prvi predak/… datoteka"
+
+#: class/psk_s2msfb.widgets.class.php:74
+#: class/psk_s2msfb.widgets.class.php:696
+msgid "In file name : First ancestor/.../First parent/file"
+msgstr "U nazivu datoteke: Prvi predak/…/Prva nadređena/datoteka"
+
+#: class/psk_s2msfb.widgets.class.php:75
+#: class/psk_s2msfb.widgets.class.php:697
+msgid "In file name : First ancestor/Second ancestor/.../file"
+msgstr "U nazivu datoteke: Prvi predak/Drugi predak/.../datoteka"
+
+#: class/psk_s2msfb.widgets.class.php:76
+#: class/psk_s2msfb.widgets.class.php:698
+msgid "In file name : Full file path"
+msgstr "U nazivu datoteke: Cela putanja"
+
+#: class/psk_s2msfb.widgets.class.php:77
+#: class/psk_s2msfb.widgets.class.php:699
+msgid "On a new line : First parent/"
+msgstr "U novom redu: Prva nadređena"
+
+#: class/psk_s2msfb.widgets.class.php:78
+#: class/psk_s2msfb.widgets.class.php:700
+msgid "On a new line : Grand parent/First parent/"
+msgstr "U nazivu datoteke: Cela putanja"
+
+#: class/psk_s2msfb.widgets.class.php:79
+#: class/psk_s2msfb.widgets.class.php:701
+msgid "On a new line : First ancestor/.../"
+msgstr "U novom redu: Prvi predak/.../"
+
+#: class/psk_s2msfb.widgets.class.php:80
+#: class/psk_s2msfb.widgets.class.php:702
+msgid "On a new line : First ancestor/.../First parent/"
+msgstr "U novom redu: Drugi predak/Prva nadređena"
+
+#: class/psk_s2msfb.widgets.class.php:81
+#: class/psk_s2msfb.widgets.class.php:703
+msgid "On a new line : First ancestor/Second ancestor/.../"
+msgstr "U novom redu: Prvi predak/Drugi predak/.../"
+
+#: class/psk_s2msfb.widgets.class.php:82
+#: class/psk_s2msfb.widgets.class.php:704
+msgid "On a new line : Full directory path"
+msgstr "U novom redu: Cela putanja direktorijuma"
+
+#: class/psk_s2msfb.widgets.class.php:85
+msgid "Display latest and top downloads"
+msgstr "Prikaži najnovija i najbrojnija preuzimanja"
+
+#: class/psk_s2msfb.widgets.class.php:211
+#: class/psk_s2msfb.widgets.class.php:820
+msgid "Title"
+msgstr "Naziv"
+
+#: class/psk_s2msfb.widgets.class.php:214
+#: class/psk_s2msfb.widgets.class.php:823
+msgid "Title of the widget as it appears on the page"
+msgstr "Naziv widget-a kakav se pojavljuje na stranici"
+
+#: class/psk_s2msfb.widgets.class.php:217
+#: class/psk_s2msfb.widgets.class.php:826
+msgid "Number of items to show"
+msgstr "Naziv"
+
+#: class/psk_s2msfb.widgets.class.php:223
+msgid "What to show"
+msgstr "Šta treba prikazati"
+
+#: class/psk_s2msfb.widgets.class.php:231
+msgid "Display icon"
+msgstr "Prikaži ikonicu"
+
+#: class/psk_s2msfb.widgets.class.php:239
+#: class/psk_s2msfb.widgets.class.php:832
+msgid "Display time"
+msgstr "Prikaži vreme"
+
+#: class/psk_s2msfb.widgets.class.php:245
+#: class/psk_s2msfb.widgets.class.php:284
+msgid "Only for type Latest Downloads"
+msgstr "Samo za vrstu Najnovija preuzimanja"
+
+#: class/psk_s2msfb.widgets.class.php:248
+#: class/psk_s2msfb.widgets.class.php:840
+msgid "Display files"
+msgstr "Prikaži datoteke"
+
+#: class/psk_s2msfb.widgets.class.php:256
+#: class/psk_s2msfb.widgets.class.php:848
+msgid "Display file path"
+msgstr "Prikaži putanju datoteke"
+
+#: class/psk_s2msfb.widgets.class.php:264
+#: class/psk_s2msfb.widgets.class.php:856
+msgid "Directory name replacements"
+msgstr "Zamena naziva direktorijuma"
+
+#: class/psk_s2msfb.widgets.class.php:270
+#: class/psk_s2msfb.widgets.class.php:862
+msgid "Filter filename"
+msgstr "Prikaži putanju datoteke"
+
+#: class/psk_s2msfb.widgets.class.php:276
+#: class/psk_s2msfb.widgets.class.php:868
+msgid "Filter directories name"
+msgstr "Filtriraj nazive direktorijuma"
+
+#: class/psk_s2msfb.widgets.class.php:282
+msgid "Show username"
+msgstr "Filtriraj nazive datoteka "
+
+#: class/psk_s2msfb.widgets.class.php:287
+msgid "Show Top Downloads count"
+msgstr "Prikaži brojač za najčešća preuzimanja"
+
+#: class/psk_s2msfb.widgets.class.php:289
+msgid "Only for type Top Downloads"
+msgstr "Samo za vrstu: Najčešća preuzimanja"
+
+#: class/psk_s2msfb.widgets.class.php:292
+#: class/psk_s2msfb.widgets.class.php:883
+msgid "Show separators"
+msgstr "Prikaži separatore"
+
+#: class/psk_s2msfb.widgets.class.php:296
+#: class/psk_s2msfb.widgets.class.php:887
+msgid "Show s2member confirmation box"
+msgstr "Samo za vrstu: Najčešća preuzimanja"
+
+#: class/psk_s2msfb.widgets.class.php:463
+#, php-format
+msgid "by %s"
+msgstr "od strane %s"
+
+#: class/psk_s2msfb.widgets.class.php:541
+#, php-format
+msgid "%s time"
+msgstr "%s put"
+
+#: class/psk_s2msfb.widgets.class.php:541
+#, php-format
+msgid "%s times"
+msgstr "%s puta"
+
+#: class/psk_s2msfb.widgets.class.php:544
+#, php-format
+msgid "%s time for a day"
+msgstr "%s put dnevno"
+
+#: class/psk_s2msfb.widgets.class.php:544
+#, php-format
+msgid "%s times for a day"
+msgstr "%s puta dnevno"
+
+#: class/psk_s2msfb.widgets.class.php:547
+#, php-format
+msgid "%s time for a week"
+msgstr "%s put nedeljno"
+
+#: class/psk_s2msfb.widgets.class.php:547
+#, php-format
+msgid "%s times for a week"
+msgstr "%s puta nedeljno"
+
+#: class/psk_s2msfb.widgets.class.php:550
+#, php-format
+msgid "%s time for a month"
+msgstr "%s put mesečno"
+
+#: class/psk_s2msfb.widgets.class.php:550
+#, php-format
+msgid "%s times for a month"
+msgstr "%s puta mesečno"
+
+#: class/psk_s2msfb.widgets.class.php:553
+#, php-format
+msgid "%s time for a year"
+msgstr "%s put godišnje"
+
+#: class/psk_s2msfb.widgets.class.php:553
+#, php-format
+msgid "%s times for a year"
+msgstr "%s puta godišnje"
+
+#: class/psk_s2msfb.widgets.class.php:556
+#, php-format
+msgid "%s time for %s days"
+msgstr "%s put za %s dana"
+
+#: class/psk_s2msfb.widgets.class.php:556
+#, php-format
+msgid "%s times for %s days"
+msgstr "%s puta za %s dana"
+
+#: class/psk_s2msfb.widgets.class.php:707
+msgid "Display new and latest modified available files"
+msgstr "Prikaži nove i poslednje izmenjene raspoložive datoteke"
+
+#: class/psk_s2msfb.widgets.class.php:874
+msgid "Show file icons"
+msgstr "Prikaži ikonice datoteka"
+
+#: class/psk_s2msfb.widgets.class.php:878
+msgid "Show modified files"
+msgstr "Prikaži izmenjene datoteke"
+
+#: class/psk_s2msfb.widgets.class.php:880
+msgid "Uncheck to show only new files"
+msgstr "Poništite štikliranje da bi prikazao samo nove datoteke"
+
+#: class/psk_s2msfb.widgets.class.php:931
+#: class/psk_s2msfb.widgets.class.php:1068
+msgid "No files"
+msgstr "Nema datoteka"
+
+#: inc/define.php:112
+msgid "%blogname% : file downloaded"
+msgstr "%naziv bloga% : datoteka preuzeta "
+
+#: inc/define.php:115
+msgid "%blogname% : report"
+msgstr "%naziv bloga% : izveštaj"
+
+#: inc/tools.class.php:287
+msgid "KB"
+msgstr "KB"
+
+#: inc/tools.class.php:287
+msgid "MB"
+msgstr "MB"
+
+#: inc/tools.class.php:287
+msgid "GB"
+msgstr "GB"
+
+#: inc/tools.class.php:287
+msgid "TB"
+msgstr "TB"
+
+#: inc/tools.class.php:287
+msgid "PB"
+msgstr "PB"
+
+#: inc/tools.class.php:289
+msgid "KiB"
+msgstr "KiB"
+
+#: inc/tools.class.php:289
+msgid "MiB"
+msgstr "MiB"
+
+#: inc/tools.class.php:289
+msgid "GiB"
+msgstr "GiB"
+
+#: inc/tools.class.php:289
+msgid "TiB"
+msgstr "TiB"
+
+#: inc/tools.class.php:289
+msgid "PiB"
+msgstr "PiB"

@@ -1,0 +1,14 @@
+.psk {
+	padding-right: 20px;
+}
+
+td.deleted {
+	color: #888;
+	font-style: italic;
+}
+
+input.flat {
+	padding: 0 !important;
+	margin: 0 !important;
+	-webkit-transform-style: flat !important;
+}
