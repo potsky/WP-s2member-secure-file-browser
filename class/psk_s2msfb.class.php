@@ -750,7 +750,22 @@ class PSK_S2MSFB {
 			}
 
 			// User is an admin, do not record anything
+			/*
 			if ( current_user_can( PSK_S2MSFB_ADMIN_SETTINGS_ACCESS ) ) {
+				return;
+			}
+			*/
+
+			// User as the "moderate_comments" capability so it is an Editor, an Administrator or a SuperAdmin
+			// https://codex.wordpress.org/Roles_and_Capabilities
+			/*
+			if ( current_user_can( "moderate_comments" ) ) {
+				return;
+			}
+			*/
+			
+			// Only notify downloads for users with s2member level 0 or 1
+			if ( ! PSK_Tools::current_user_cans( 'access_s2member_level0,access_s2member_level1' ) )
 				return;
 			}
 
