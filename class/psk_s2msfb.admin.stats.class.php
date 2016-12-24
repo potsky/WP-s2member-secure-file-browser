@@ -102,6 +102,14 @@ class PSK_S2MSFBAdminStats {
 	public static function admin_screen_stats_all() {
 		echo PSK_S2MSFBAdmin::get_admin_header( __METHOD__ );
 
+		// You just have to define the slug and the displayed name of the custom fields that you want to display
+		// The slug is the "Field Name" and the display name is the "Field Label" in the ACF plugin 
+		$advanced_custom_fields = array(
+			"sales_office" => "Sales Office",
+			"what_you_want1" => "Displayed Title 1",
+			"what_you_want2" => "Displayed Title 2",
+		);
+
 		/** @var $wpdb WPDB */
 		global $wpdb;
 
@@ -175,6 +183,11 @@ class PSK_S2MSFBAdminStats {
 			echo '  <th>' . __( 'File' , PSK_S2MSFB_ID ) . '</th>';
 			echo '  <th class="filter-select filter-exact" data-placeholder="Select user">' . __( 'User' , PSK_S2MSFB_ID ) . '</th>';
 			echo '  <th>' . __( 'IP Address' , PSK_S2MSFB_ID ) . '</th>';
+
+			foreach ( $advanced_custom_fields as $slug => $name ) {
+				echo '<th>' . $name . '</th>';
+			}
+
 			echo '</tr></thead>';
 			echo '<tbody>';
 
@@ -197,6 +210,17 @@ class PSK_S2MSFBAdminStats {
 				echo '  <td>' . PSK_Tools::mb_html_entities( $row[ 'filepath' ] ) . '</td>';
 				echo '  <td' . $userclass . '>' . $user . '</td>';
 				echo '  <td>' . $row[ 'ip' ] . '</td>';
+
+				foreach ( $advanced_custom_fields as $slug => $name ) {
+					$value = '';
+
+					if ( isset( $users[ $row[ 'userid' ] ] ) ) {
+						$value = @get_field( $slug , 'user_' . $row[ 'userid' ] );
+					}
+
+					echo '<td>' . $value . '</td>';
+				}
+
 				echo '</tr>';
 			}
 
@@ -207,6 +231,11 @@ class PSK_S2MSFBAdminStats {
 			echo '    <th>' . __( 'File' , PSK_S2MSFB_ID ) . '</th>';
 			echo '    <th>' . __( 'User' , PSK_S2MSFB_ID ) . '</th>';
 			echo '    <th>' . __( 'IP Address' , PSK_S2MSFB_ID ) . '</th>';
+
+			foreach ( $advanced_custom_fields as $slug => $name ) {
+				echo '<th>' . $name . '</th>';
+			}
+
 			echo '  </tr>';
 			echo '  <tr><th colspan="4" class="pager form-horizontal">';
 			echo '    <button class="reset btn btn-mini btn-primary" data-column="0" data-filter=""><i class="icon-white icon-refresh"></i> Reset filters</button>';
