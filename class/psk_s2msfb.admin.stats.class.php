@@ -151,7 +151,10 @@ class PSK_S2MSFBAdminStats {
 		if ( $cresul > 0 ) {
 
 			foreach ( get_users() as $user ) {
-				$users[ $user->ID ] = $user->display_name;
+				$users[ $user->ID ]      = $user->display_name;
+				$firstnames[ $user->ID ] = @$user->first_name;
+				$lastnames[ $user->ID ]  = @$user->last_name;
+				$emails[ $user->ID ]     = @$user->user_email;
 			}
 
 			echo '&nbsp;&nbsp;&nbsp;';
@@ -182,6 +185,9 @@ class PSK_S2MSFBAdminStats {
 			echo '  <th>' . __( 'When' , PSK_S2MSFB_ID ) . '</th>';
 			echo '  <th>' . __( 'File' , PSK_S2MSFB_ID ) . '</th>';
 			echo '  <th class="filter-select filter-exact" data-placeholder="Select user">' . __( 'User' , PSK_S2MSFB_ID ) . '</th>';
+			echo '  <th>' . __( 'Lastname' , PSK_S2MSFB_ID ) . '</th>';
+			echo '  <th>' . __( 'Firstname' , PSK_S2MSFB_ID ) . '</th>';
+			echo '  <th>' . __( 'Email' , PSK_S2MSFB_ID ) . '</th>';
 			echo '  <th>' . __( 'IP Address' , PSK_S2MSFB_ID ) . '</th>';
 
 			foreach ( $advanced_custom_fields as $slug => $name ) {
@@ -200,15 +206,24 @@ class PSK_S2MSFBAdminStats {
 				if ( isset( $users[ $row[ 'userid' ] ] ) ) {
 					$user      = '<a href="' . admin_url( 'user-edit.php?user_id=' . $row[ 'userid' ] ) . '">' . $users[ $row[ 'userid' ] ] . '</a>';
 					$userclass = '';
+					$lastname  = $lastnames[ $row[ 'userid' ] ];
+					$firstname = $firstnames[ $row[ 'userid' ] ];
+					$email     = $emails[ $row[ 'userid' ] ];
 				} else {
 					$user      = $row[ 'useremail' ] . ' - #' . $row[ 'userid' ];
 					$userclass = ' class="deleted"';
+					$lastname  = '';
+					$firstname = '';
+					$email     = '';
 				}
 
 				echo '<tr>';
 				echo '  <td data-t="' . $time . '">' . $dt . '</td>';
 				echo '  <td>' . PSK_Tools::mb_html_entities( $row[ 'filepath' ] ) . '</td>';
 				echo '  <td' . $userclass . '>' . $user . '</td>';
+				echo '  <td>' . $lastname . '</td>';
+				echo '  <td>' . $firstname . '</td>';
+				echo '  <td>' . $email . '</td>';
 				echo '  <td>' . $row[ 'ip' ] . '</td>';
 
 				foreach ( $advanced_custom_fields as $slug => $name ) {
@@ -230,6 +245,9 @@ class PSK_S2MSFBAdminStats {
 			echo '    <th>' . __( 'When' , PSK_S2MSFB_ID ) . '</th>';
 			echo '    <th>' . __( 'File' , PSK_S2MSFB_ID ) . '</th>';
 			echo '    <th>' . __( 'User' , PSK_S2MSFB_ID ) . '</th>';
+			echo '    <th>' . __( 'Lastname' , PSK_S2MSFB_ID ) . '</th>';
+			echo '    <th>' . __( 'Firstname' , PSK_S2MSFB_ID ) . '</th>';
+			echo '    <th>' . __( 'Email' , PSK_S2MSFB_ID ) . '</th>';
 			echo '    <th>' . __( 'IP Address' , PSK_S2MSFB_ID ) . '</th>';
 
 			foreach ( $advanced_custom_fields as $slug => $name ) {
