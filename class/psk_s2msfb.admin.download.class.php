@@ -32,6 +32,14 @@ if ( ( realpath( __FILE__ ) === realpath( $_SERVER[ "SCRIPT_FILENAME" ] ) ) || (
  */
 class PSK_S2MSFBAdminDownload {
 
+	// You just have to define the slug and the displayed name of the custom fields that you want to display
+	// The slug is the "Field Name" and the display name is the "Field Label" in the ACF plugin 
+	private static $advanced_custom_fields = array(
+		"sales_office" => "Sales Office",
+		"what_you_want1" => "Displayed Title 1",
+		"what_you_want2" => "Displayed Title 2",
+	);
+
 	/**
 	 * Initialization
 	 *
@@ -184,6 +192,16 @@ class PSK_S2MSFBAdminDownload {
 				$d->addAttribute( 'firstname' , $userfirstname );
 				$d->addAttribute( 'uemail' , $db_useremail );
 				$d->addAttribute( 'uip' , $db_ip );
+
+				foreach ( self::$advanced_custom_fields as $slug => $name ) {
+					$value = '';
+
+					if ( isset( $users[ $db_userid ] ) ) {
+						$value = @get_field( $slug , 'user_' . $db_userid );
+					}
+
+					$d->addAttribute( $slug , $value );
+				}
 			}
 			$stmt->free_result();
 			$stmt->close();
@@ -243,7 +261,7 @@ class PSK_S2MSFBAdminDownload {
 					$userfirstname = $user->first_name;
 				}
 
-				$csv[] = array(
+				$temp = array(
 					'id'        => $db_id ,
 					'file'      => $db_filepath ,
 					'ts'        => date( "Y-m-d h:i:s" , strtotime( $db_created ) ) ,
@@ -254,6 +272,18 @@ class PSK_S2MSFBAdminDownload {
 					'uemail'    => $db_useremail ,
 					'uip'       => $db_ip ,
 				);
+
+				foreach ( self::$advanced_custom_fields as $slug => $name ) {
+					$value = '';
+
+					if ( isset( $users[ $db_userid ] ) ) {
+						$value = @get_field( $slug , 'user_' . $db_userid );
+					}
+
+					$temp[ $name ] = $value;
+				}
+
+				$csv[] = $temp;
 			}
 			$stmt->free_result();
 			$stmt->close();
