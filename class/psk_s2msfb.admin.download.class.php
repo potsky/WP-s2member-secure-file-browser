@@ -144,11 +144,6 @@ class PSK_S2MSFBAdminDownload {
 			return;
 		}
 
-		$users = array();
-		foreach ( get_users() as $user ) {
-			$users[ $user->ID ] = $user;
-		}
-
 		$mysqli->set_charset( "utf8" );
 		/** @var $tablename $string */
 
@@ -159,6 +154,17 @@ class PSK_S2MSFBAdminDownload {
 			$stmt->execute();
 			$stmt->bind_result( $db_id , $db_created , $db_userid , $db_useremail , $db_ip , $db_filepath );
 			$stmt->store_result();
+
+			$wanted_users = array();
+			while ( $stmt->fetch() ) {
+				$wanted_users[] = $db_userid;
+			}
+			$stmt->data_seek( 0 );
+
+			$users = array();
+			foreach ( get_users( array( 'include' => $wanted_users ) ) as $user ) {
+				$users[ $user->ID ] = $user;
+			}
 
 			while ( $stmt->fetch() ) {
 
@@ -213,11 +219,6 @@ class PSK_S2MSFBAdminDownload {
 			return;
 		}
 
-		$users = array();
-		foreach ( get_users() as $user ) {
-			$users[ $user->ID ] = $user;
-		}
-
 		$mysqli->set_charset( "utf8" );
 		/** @var $tablename $string */
 
@@ -229,6 +230,17 @@ class PSK_S2MSFBAdminDownload {
 			$stmt->bind_result( $db_id , $db_created , $db_userid , $db_useremail , $db_ip , $db_filepath );
 			$stmt->store_result();
 
+			$wanted_users = array();
+			while ( $stmt->fetch() ) {
+				$wanted_users[] = $db_userid;
+			}
+			$stmt->data_seek( 0 );
+
+			$users = array();
+			foreach ( get_users( array( 'include' => $wanted_users ) ) as $user ) {
+				$users[ $user->ID ] = $user;
+			}
+			
 			while ( $stmt->fetch() ) {
 
 				$username      = '';

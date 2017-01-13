@@ -142,8 +142,16 @@ class PSK_S2MSFBAdminStats {
 
 		if ( $cresul > 0 ) {
 
-			foreach ( get_users() as $user ) {
-				$users[ $user->ID ] = $user->display_name;
+			$wanted_users = array();
+			foreach ( $result as $row ) {
+				$wanted_users[] = $row[ 'userid' ];
+			}
+
+			foreach ( get_users( array( 'include' => $wanted_users ) ) as $user ) {
+				$users[ $user->ID ]      = $user->display_name;
+				$firstnames[ $user->ID ] = $user->first_name;
+				$lastnames[ $user->ID ]  = $user->last_name;
+				$emails[ $user->ID ]     = $user->user_email;
 			}
 
 			echo '&nbsp;&nbsp;&nbsp;';
@@ -412,7 +420,12 @@ class PSK_S2MSFBAdminStats {
 
 		if ( count( $result ) > 0 ) {
 
-			foreach ( get_users() as $user ) {
+			$wanted_users = array();
+			foreach ( $result as $row ) {
+				$wanted_users[] = $row[ 'userid' ];
+			}
+
+			foreach ( get_users( array( 'include' => $wanted_users ) ) as $user ) {
 				/** @var $users WP_User */
 				$users[ $user->ID ] = $user->display_name;
 			}
@@ -585,4 +598,5 @@ class PSK_S2MSFBAdminStats {
 }
 
 PSK_S2MSFBAdminStats::init();
+
 
